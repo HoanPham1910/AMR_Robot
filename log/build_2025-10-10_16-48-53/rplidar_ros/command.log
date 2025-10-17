@@ -1,0 +1,2 @@
+Invoking command in '/home/amr/turtlebot3_ws/build/rplidar_ros': /usr/bin/cmake /home/amr/turtlebot3_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/rplidar_ros
+Invoked command in '/home/amr/turtlebot3_ws/build/rplidar_ros' returned '1': /usr/bin/cmake /home/amr/turtlebot3_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/rplidar_ros

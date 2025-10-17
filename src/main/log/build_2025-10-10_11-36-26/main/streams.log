@@ -1,0 +1,30 @@
+[1.036s] Invoking command in '/home/amr/turtlebot3_ws/src/main': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/main build --build-base /home/amr/turtlebot3_ws/src/main/build/main/build install --record /home/amr/turtlebot3_ws/src/main/build/main/install.log --single-version-externally-managed install_data
+[1.404s] running egg_info
+[1.405s] writing build/main/main.egg-info/PKG-INFO
+[1.406s] writing dependency_links to build/main/main.egg-info/dependency_links.txt
+[1.406s] writing entry points to build/main/main.egg-info/entry_points.txt
+[1.406s] writing requirements to build/main/main.egg-info/requires.txt
+[1.407s] writing top-level names to build/main/main.egg-info/top_level.txt
+[1.410s] reading manifest file 'build/main/main.egg-info/SOURCES.txt'
+[1.411s] writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+[1.411s] running build
+[1.412s] running build_py
+[1.412s] copying main.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+[1.412s] copying Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library
+[1.413s] running install
+[1.414s] running install_lib
+[1.415s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+[1.415s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/main.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages
+[1.417s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/ezi_servo_controller.py to ezi_servo_controller.cpython-310.pyc
+[1.420s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.py to main.cpython-310.pyc
+[1.422s] running install_data
+[1.422s] copying package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main
+[1.422s] running install_egg_info
+[1.425s] removing '/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main-0.0.1-py3.10.egg-info' (and everything under it)
+[1.425s] Copying build/main/main.egg-info to /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main-0.0.1-py3.10.egg-info
+[1.426s] running install_scripts
+[1.458s] Installing cmd_vel_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[1.459s] Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[1.459s] Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[1.460s] writing list of installed files to '/home/amr/turtlebot3_ws/src/main/build/main/install.log'
+[1.498s] Invoked command in '/home/amr/turtlebot3_ws/src/main' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/main build --build-base /home/amr/turtlebot3_ws/src/main/build/main/build install --record /home/amr/turtlebot3_ws/src/main/build/main/install.log --single-version-externally-managed install_data

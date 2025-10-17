@@ -1,0 +1,7 @@
+[console_scripts]
+cmd_vel_publisher = main.publisher_cmd_vel:main
+encoder_joint_state_publisher = main.encoder_joint_state_publisher:main
+main = main.main:main
+odom_publisher = main.odom_publisher:main
+odom_tf_broadcaster = main.tf_broadcaster:main
+

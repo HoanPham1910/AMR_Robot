@@ -1,0 +1,1 @@
+Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4

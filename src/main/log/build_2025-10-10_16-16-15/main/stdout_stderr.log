@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing main.egg-info/PKG-INFO
+writing dependency_links to main.egg-info/dependency_links.txt
+writing entry points to main.egg-info/entry_points.txt
+writing requirements to main.egg-info/requires.txt
+writing top-level names to main.egg-info/top_level.txt
+reading manifest file 'main.egg-info/SOURCES.txt'
+writing manifest file 'main.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.egg-link (link to .)
+Installing cmd_vel_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing odom_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing odom_tf_broadcaster script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+
+Installed /home/amr/turtlebot3_ws/src/main/build/main
+running symlink_data
+symbolically linking /home/amr/turtlebot3_ws/src/main/build/main/resource/main -> /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages
+symbolically linking /home/amr/turtlebot3_ws/src/main/build/main/package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main

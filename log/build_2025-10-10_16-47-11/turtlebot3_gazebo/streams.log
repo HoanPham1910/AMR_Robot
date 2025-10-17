@@ -1,0 +1,18 @@
+[0.071s] Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[0.284s] [  8%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.297s] [ 16%] [32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o[0m
+[0.305s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[0.319s] [ 33%] [32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o[0m
+[28.583s] gmake[2]: *** wait: No child processes.  Stop.
+[28.591s] gmake[2]: *** Waiting for unfinished jobs....
+[28.591s] gmake[2]: *** wait: No child processes.  Stop.
+[28.591s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/turtlebot3_drive.dir/all] Error 2
+[28.595s] gmake[2]: *** [CMakeFiles/traffic_light_plugin.dir/build.make:76: CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o] Interrupt
+[28.596s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/traffic_light_plugin.dir/all] Interrupt
+[28.596s] gmake[2]: *** wait: No child processes.  Stop.
+[28.596s] gmake[2]: *** Waiting for unfinished jobs....
+[28.597s] gmake[2]: *** wait: No child processes.  Stop.
+[28.600s] gmake[2]: *** [CMakeFiles/traffic_bar_plugin.dir/build.make:76: CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o] Interrupt
+[28.600s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/traffic_bar_plugin.dir/all] Interrupt
+[28.601s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/obstacle1.dir/all] Error 2
+[28.601s] gmake: *** [Makefile:146: all] Interrupt

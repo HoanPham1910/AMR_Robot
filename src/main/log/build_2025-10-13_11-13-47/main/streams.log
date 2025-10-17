@@ -1,0 +1,23 @@
+[3.033s] Invoking command in '/home/amr/turtlebot3_ws/src/main/build/main': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/src/main/build/main/build --no-deps symlink_data --force
+[4.214s] running develop
+[5.119s] running egg_info
+[5.120s] writing main.egg-info/PKG-INFO
+[5.120s] writing dependency_links to main.egg-info/dependency_links.txt
+[5.120s] writing entry points to main.egg-info/entry_points.txt
+[5.121s] writing requirements to main.egg-info/requires.txt
+[5.121s] writing top-level names to main.egg-info/top_level.txt
+[5.133s] reading manifest file 'main.egg-info/SOURCES.txt'
+[5.134s] writing manifest file 'main.egg-info/SOURCES.txt'
+[5.140s] running build_ext
+[5.144s] Creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.egg-link (link to .)
+[5.151s] Installing cmd_vel_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[5.151s] Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[5.151s] Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[5.157s] Installing odom_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[5.157s] Installing odom_tf_broadcaster script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[5.158s] 
+[5.160s] Installed /home/amr/turtlebot3_ws/src/main/build/main
+[5.161s] running symlink_data
+[5.164s] symbolically linking /home/amr/turtlebot3_ws/src/main/build/main/resource/main -> /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages
+[5.164s] symbolically linking /home/amr/turtlebot3_ws/src/main/build/main/package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main
+[5.293s] Invoked command in '/home/amr/turtlebot3_ws/src/main/build/main' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/src/main/build/main/build --no-deps symlink_data --force

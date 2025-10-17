@@ -1,0 +1,55 @@
+running develop
+Removing /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.egg-link (link to .)
+running egg_info
+writing build/main/main.egg-info/PKG-INFO
+writing dependency_links to build/main/main.egg-info/dependency_links.txt
+writing entry points to build/main/main.egg-info/entry_points.txt
+writing requirements to build/main/main.egg-info/requires.txt
+writing top-level names to build/main/main.egg-info/top_level.txt
+reading manifest file 'build/main/main.egg-info/SOURCES.txt'
+writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+running build
+running build_py
+copying giaodien.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+copying main.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+copying Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library
+copying Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+running install
+running install_lib
+creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/giaodien.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/main.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages
+creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/wheel_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/speedometer.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/motor_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/test.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/ezi_servo_controller.py to ezi_servo_controller.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/giaodien.py to giaodien.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.py to main.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/wheel_widget.py to wheel_widget.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/speedometer.py to speedometer.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/motor_widget.py to motor_widget.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/realtime_chart.py to realtime_chart.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/test.py to test.cpython-310.pyc
+byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/main -> /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages
+copying package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main
+running install_egg_info
+Copying build/main/main.egg-info to /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main-0.0.1-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing odom_publisher script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+Installing odom_tf_broadcaster script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+writing list of installed files to '/home/amr/turtlebot3_ws/src/main/build/main/install.log'

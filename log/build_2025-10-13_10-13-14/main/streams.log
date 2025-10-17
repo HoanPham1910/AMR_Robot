@@ -1,0 +1,21 @@
+[2.947s] Invoking command in '/home/amr/turtlebot3_ws/build/main': PYTHONPATH=/home/amr/turtlebot3_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/main/build --no-deps symlink_data
+[4.314s] running develop
+[4.957s] running egg_info
+[4.957s] writing main.egg-info/PKG-INFO
+[4.957s] writing dependency_links to main.egg-info/dependency_links.txt
+[4.958s] writing entry points to main.egg-info/entry_points.txt
+[4.958s] writing requirements to main.egg-info/requires.txt
+[4.959s] writing top-level names to main.egg-info/top_level.txt
+[4.965s] reading manifest file 'main.egg-info/SOURCES.txt'
+[4.971s] writing manifest file 'main.egg-info/SOURCES.txt'
+[4.978s] running build_ext
+[4.978s] Creating /home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages/main.egg-link (link to .)
+[4.992s] Installing cmd_vel_publisher script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.992s] Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.992s] Installing main script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.992s] Installing odom_publisher script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.992s] Installing odom_tf_broadcaster script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.992s] 
+[4.993s] Installed /home/amr/turtlebot3_ws/build/main
+[4.993s] running symlink_data
+[5.138s] Invoked command in '/home/amr/turtlebot3_ws/build/main' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/main/build --no-deps symlink_data

@@ -1,0 +1,120 @@
+[0.056s] Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble /usr/bin/cmake /home/amr/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/turtlebot3_gazebo
+[0.418s] -- The C compiler identification is GNU 11.4.0
+[0.629s] -- The CXX compiler identification is GNU 11.4.0
+[0.644s] -- Detecting C compiler ABI info
+[0.985s] -- Detecting C compiler ABI info - done
+[1.027s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.027s] -- Detecting C compile features
+[1.033s] -- Detecting C compile features - done
+[1.063s] -- Detecting CXX compiler ABI info
+[1.630s] -- Detecting CXX compiler ABI info - done
+[1.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.677s] -- Detecting CXX compile features
+[1.678s] -- Detecting CXX compile features - done
+[1.688s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.232s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.428s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.429s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[3.432s]   does not match the name of the calling package (gazebo).  This can lead to
+[3.432s]   problems in calling code that expects `find_package` result variables
+[3.432s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.432s] Call Stack (most recent call first):
+[3.433s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[3.433s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[3.433s]   CMakeLists.txt:23 (find_package)
+[3.433s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.433s] [0m
+[3.433s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.502s] -- Checking for module 'bullet>=2.82'
+[3.574s] --   Found bullet, version 3.05
+[4.489s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.893s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.191s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.381s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.579s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.651s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.699s] -- Searching for dependencies of ignition-math6
+[6.718s] -- Looking for OGRE...
+[6.722s] -- OGRE_PREFIX_WATCH changed.
+[6.774s] -- Checking for module 'OGRE'
+[6.905s] --   Found OGRE, version 1.9.0
+[7.120s] -- Found Ogre Ghadamon (1.9.0)
+[7.231s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.311s] -- Looking for OGRE_Paging...
+[7.382s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.382s] -- Looking for OGRE_Terrain...
+[7.432s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.433s] -- Looking for OGRE_Property...
+[7.483s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.483s] -- Looking for OGRE_RTShaderSystem...
+[7.550s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.551s] -- Looking for OGRE_Volume...
+[7.587s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.587s] -- Looking for OGRE_Overlay...
+[7.661s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.558s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.573s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.574s] -- Searching for dependencies of ignition-transport8
+[8.642s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.698s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.726s] -- Checking for module 'libzmq >= 4'
+[8.811s] --   Found libzmq , version 4.3.4
+[8.931s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.958s] -- Checking for module 'uuid'
+[9.026s] --   Found uuid, version 2.37.2
+[9.169s] -- Found UUID: TRUE  
+[9.194s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.194s] -- Searching for dependencies of ignition-msgs5
+[9.270s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.285s] -- Checking for module 'tinyxml2'
+[9.356s] --   Found tinyxml2, version 9.0.0
+[9.496s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.513s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.517s] -- Searching for dependencies of ignition-common3
+[9.518s] -- Looking for dlfcn.h - found
+[9.522s] -- Looking for libdl - found
+[9.539s] -- Found DL: TRUE  
+[9.624s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[9.628s] -- Searching for <ignition-common3> component [graphics]
+[9.649s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[9.657s] -- Searching for dependencies of ignition-common3-graphics
+[9.661s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.684s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[9.691s] -- Searching for dependencies of ignition-fuel_tools4
+[10.219s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[10.267s] -- Checking for module 'jsoncpp'
+[10.331s] --   Found jsoncpp, version 1.9.5
+[10.435s] -- Found JSONCPP: TRUE  
+[10.466s] -- Checking for module 'libzip'
+[10.540s] --   Found libzip, version 1.7.3
+[10.675s] -- Found ZIP: TRUE  
+[10.678s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.688s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.689s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.733s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[10.745s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.828s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.853s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.890s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.010s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.169s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.272s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[11.437s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.452s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.979s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.082s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.293s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.334s] -- Found Threads: TRUE  
+[12.538s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.645s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[13.220s] -- Configuring done
+[13.541s] -- Generating done
+[13.564s] -- Build files have been written to: /home/amr/turtlebot3_ws/build/turtlebot3_gazebo
+[13.660s] Invoked command in '/home/amr/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble /usr/bin/cmake /home/amr/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/turtlebot3_gazebo
+[13.665s] Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[13.869s] [  8%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[49.417s] gmake[2]: *** [CMakeFiles/turtlebot3_drive.dir/build.make:76: CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o] Interrupt
+[49.419s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/turtlebot3_drive.dir/all] Interrupt
+[49.420s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,86 @@
+[0.060s] Invoking command in '/home/amr/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/dynamixel_sdk -- -j4 -l4
+[0.341s] [100%] Built target dynamixel_sdk
+[0.425s] [100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.651s] running egg_info
+[1.653s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.655s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.656s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.669s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.669s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.744s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[1.784s] Invoked command in '/home/amr/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/dynamixel_sdk -- -j4 -l4
+[1.790s] Invoking command in '/home/amr/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/amr/turtlebot3_ws/build/dynamixel_sdk
+[1.820s] -- Install configuration: ""
+[1.821s] -- Execute custom install script
+[1.822s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.823s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.823s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.824s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[1.825s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[1.828s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[1.828s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.829s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.831s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.836s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.837s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.837s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.839s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.839s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.840s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.840s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.840s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[1.840s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[1.840s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/PKG-INFO
+[1.843s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/SOURCES.txt
+[1.843s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/dependency_links.txt
+[1.843s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/top_level.txt
+[1.844s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[1.844s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[1.844s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[1.846s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[1.847s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[1.848s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[1.848s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[1.848s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[1.851s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[1.856s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[1.857s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[1.857s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[1.858s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[1.858s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[1.858s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[1.858s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[1.859s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[1.859s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[1.868s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[1.869s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[1.873s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[1.877s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[1.878s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[1.879s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[1.880s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[1.880s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.880s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.881s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.882s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.883s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.884s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.888s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.888s] -- Symlinking: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.889s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.890s] -- Up-to-date symlink: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.891s] -- Up-to-date: /home/amr/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.972s] Listing '/home/amr/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[1.980s] -- Up-to-date: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[1.981s] -- Up-to-date: /home/amr/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[2.011s] Invoked command in '/home/amr/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/home/amr/turtlebot3_ws/src/main/install/main:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/amr/turtlebot3_ws/build/dynamixel_sdk

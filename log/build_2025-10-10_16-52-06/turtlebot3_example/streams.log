@@ -1,0 +1,29 @@
+[2.109s] Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_msgs:/home/amr/turtlebot3_ws/install/turtlebot3:/home/amr/turtlebot3_ws/install/turtlebot3_simulations:/home/amr/turtlebot3_ws/install/turtlebot3_bringup:/home/amr/turtlebot3_ws/install/turtlebot3_node:/home/amr/turtlebot3_ws/install/turtlebot3_navigation2:/home/amr/turtlebot3_ws/install/turtlebot3_fake_node:/home/amr/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/amr/turtlebot3_ws/install/turtlebot3_gazebo:/home/amr/turtlebot3_ws/install/turtlebot3_description:/home/amr/turtlebot3_ws/install/turtlebot3_cartographer:/home/amr/turtlebot3_ws/install/main:/home/amr/turtlebot3_ws/install/dynamixel_sdk_examples:/home/amr/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/amr/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/amr/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/amr/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/amr/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[2.734s] running develop
+[3.335s] running egg_info
+[3.336s] creating turtlebot3_example.egg-info
+[3.337s] writing turtlebot3_example.egg-info/PKG-INFO
+[3.338s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[3.338s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[3.338s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[3.338s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[3.346s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.346s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.346s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.351s] running build_ext
+[3.355s] Creating /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[3.355s] Installing turtlebot3_absolute_move script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.355s] Installing turtlebot3_interactive_marker script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.355s] Installing turtlebot3_obstacle_detection script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.355s] Installing turtlebot3_patrol_client script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.356s] Installing turtlebot3_patrol_server script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.356s] Installing turtlebot3_relative_move script to /home/amr/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.356s] 
+[3.356s] Installed /home/amr/turtlebot3_ws/build/turtlebot3_example
+[3.356s] running symlink_data
+[3.356s] creating /home/amr/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[3.356s] creating /home/amr/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[3.356s] creating /home/amr/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[3.357s] symbolically linking /home/amr/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/amr/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[3.357s] symbolically linking /home/amr/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/amr/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[4.410s] Invoked command in '/home/amr/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_msgs:/home/amr/turtlebot3_ws/install/turtlebot3:/home/amr/turtlebot3_ws/install/turtlebot3_simulations:/home/amr/turtlebot3_ws/install/turtlebot3_bringup:/home/amr/turtlebot3_ws/install/turtlebot3_node:/home/amr/turtlebot3_ws/install/turtlebot3_navigation2:/home/amr/turtlebot3_ws/install/turtlebot3_fake_node:/home/amr/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/amr/turtlebot3_ws/install/turtlebot3_gazebo:/home/amr/turtlebot3_ws/install/turtlebot3_description:/home/amr/turtlebot3_ws/install/turtlebot3_cartographer:/home/amr/turtlebot3_ws/install/main:/home/amr/turtlebot3_ws/install/dynamixel_sdk_examples:/home/amr/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/amr/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/amr/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/amr/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/amr/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/amr/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.001046] (main) JobStarted: {'identifier': 'main'}
+[0.099757] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300423] (-) TimerEvent: {}
+[0.400759] (-) TimerEvent: {}
+[0.501182] (-) TimerEvent: {}
+[0.601499] (-) TimerEvent: {}
+[0.701810] (-) TimerEvent: {}
+[0.802161] (-) TimerEvent: {}
+[0.902563] (-) TimerEvent: {}
+[0.944573] (main) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/main', 'build', '--build-base', '/home/amr/turtlebot3_ws/src/main/build/main/build', 'install', '--record', '/home/amr/turtlebot3_ws/src/main/build/main/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amr/turtlebot3_ws/src/main', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/amr', 'OLDPWD': '/home/amr/turtlebot3_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'vi_VN', 'MANAGERPID': '788', 'SYSTEMD_EXEC_PID': '29499', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amr/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amr', 'JOURNAL_STREAM': '8:152802', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amr', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hoan:@/tmp/.ICE-unix/907,unix/hoan:/tmp/.ICE-unix/907', 'INVOCATION_ID': 'd0918331deec4c969e861974a80682be', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'vi_VN', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'vi_VN', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.N8Z8D3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/amr/turtlebot3_ws/install/main:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'TERMINATOR_UUID': 'urn:uuid:2933d36c-350f-40bc-9c7a-6c5cc8eb5780', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'vi_VN', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amr/turtlebot3_ws/src/main/build/main', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:/home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/amr/turtlebot3_ws/install/main'}, 'shell': False}
+[1.002739] (-) TimerEvent: {}
+[1.103097] (-) TimerEvent: {}
+[1.203454] (-) TimerEvent: {}
+[1.283317] (main) StdoutLine: {'line': b'running egg_info\n'}
+[1.284209] (main) StdoutLine: {'line': b'creating build/main/main.egg-info\n'}
+[1.284579] (main) StdoutLine: {'line': b'writing build/main/main.egg-info/PKG-INFO\n'}
+[1.284956] (main) StdoutLine: {'line': b'writing dependency_links to build/main/main.egg-info/dependency_links.txt\n'}
+[1.285222] (main) StdoutLine: {'line': b'writing entry points to build/main/main.egg-info/entry_points.txt\n'}
+[1.285475] (main) StdoutLine: {'line': b'writing requirements to build/main/main.egg-info/requires.txt\n'}
+[1.285597] (main) StdoutLine: {'line': b'writing top-level names to build/main/main.egg-info/top_level.txt\n'}
+[1.285731] (main) StdoutLine: {'line': b"writing manifest file 'build/main/main.egg-info/SOURCES.txt'\n"}
+[1.288469] (main) StdoutLine: {'line': b"reading manifest file 'build/main/main.egg-info/SOURCES.txt'\n"}
+[1.289395] (main) StdoutLine: {'line': b"writing manifest file 'build/main/main.egg-info/SOURCES.txt'\n"}
+[1.289591] (main) StdoutLine: {'line': b'running build\n'}
+[1.289760] (main) StdoutLine: {'line': b'running build_py\n'}
+[1.289874] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/build/main/build\n'}
+[1.289977] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib\n'}
+[1.290172] (main) StdoutLine: {'line': b'copying giaodien.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib\n'}
+[1.290290] (main) StdoutLine: {'line': b'copying main.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib\n'}
+[1.290469] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library\n'}
+[1.290594] (main) StdoutLine: {'line': b'copying Library/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library\n'}
+[1.290736] (main) StdoutLine: {'line': b'copying Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library\n'}
+[1.291011] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.291197] (main) StdoutLine: {'line': b'copying Design_Frame/wheel_widget.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.291367] (main) StdoutLine: {'line': b'copying Design_Frame/speedometer.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.291520] (main) StdoutLine: {'line': b'copying Design_Frame/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.291647] (main) StdoutLine: {'line': b'copying Design_Frame/motor_widget.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.291769] (main) StdoutLine: {'line': b'copying Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame\n'}
+[1.292043] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI\n'}
+[1.292204] (main) StdoutLine: {'line': b'copying UI/test.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI\n'}
+[1.292423] (main) StdoutLine: {'line': b'copying UI/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI\n'}
+[1.292939] (main) StdoutLine: {'line': b'running install\n'}
+[1.293477] (main) StdoutLine: {'line': b'running install_lib\n'}
+[1.295869] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library\n'}
+[1.296155] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library\n'}
+[1.296376] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library\n'}
+[1.296529] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/giaodien.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages\n'}
+[1.296666] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/main.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages\n'}
+[1.296802] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.296928] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/wheel_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.297088] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/speedometer.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.297205] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.297331] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/motor_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.297456] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame\n'}
+[1.297577] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI\n'}
+[1.297700] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/test.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI\n'}
+[1.297830] (main) StdoutLine: {'line': b'copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI\n'}
+[1.298538] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/__init__.py to __init__.cpython-310.pyc\n'}
+[1.298870] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/ezi_servo_controller.py to ezi_servo_controller.cpython-310.pyc\n'}
+[1.300961] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/giaodien.py to giaodien.cpython-310.pyc\n'}
+[1.303539] (-) TimerEvent: {}
+[1.304002] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.py to main.cpython-310.pyc\n'}
+[1.305272] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/wheel_widget.py to wheel_widget.cpython-310.pyc\n'}
+[1.306231] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/speedometer.py to speedometer.cpython-310.pyc\n'}
+[1.307132] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/__init__.py to __init__.cpython-310.pyc\n'}
+[1.307359] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/motor_widget.py to motor_widget.cpython-310.pyc\n'}
+[1.308028] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/realtime_chart.py to realtime_chart.cpython-310.pyc\n'}
+[1.310434] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/test.py to test.cpython-310.pyc\n'}
+[1.312441] (main) StdoutLine: {'line': b'byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/__init__.py to __init__.cpython-310.pyc\n'}
+[1.312655] (main) StdoutLine: {'line': b'running install_data\n'}
+[1.312794] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index\n'}
+[1.312940] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index\n'}
+[1.313071] (main) StdoutLine: {'line': b'creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages\n'}
+[1.313196] (main) StdoutLine: {'line': b'copying resource/main -> /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages\n'}
+[1.313321] (main) StdoutLine: {'line': b'copying package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main\n'}
+[1.313454] (main) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.315972] (main) StdoutLine: {'line': b'Copying build/main/main.egg-info to /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main-0.0.1-py3.10.egg-info\n'}
+[1.317151] (main) StdoutLine: {'line': b'running install_scripts\n'}
+[1.344454] (main) StdoutLine: {'line': b'Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main\n'}
+[1.345540] (main) StdoutLine: {'line': b"writing list of installed files to '/home/amr/turtlebot3_ws/src/main/build/main/install.log'\n"}
+[1.386536] (main) CommandEnded: {'returncode': 0}
+[1.401384] (main) JobEnded: {'identifier': 'main', 'rc': 0}
+[1.402264] (-) EventReactorShutdown: {}

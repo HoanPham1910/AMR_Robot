@@ -1,0 +1,68 @@
+[0.945s] Invoking command in '/home/amr/turtlebot3_ws/src/main': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/main build --build-base /home/amr/turtlebot3_ws/src/main/build/main/build install --record /home/amr/turtlebot3_ws/src/main/build/main/install.log --single-version-externally-managed install_data
+[1.282s] running egg_info
+[1.283s] creating build/main/main.egg-info
+[1.284s] writing build/main/main.egg-info/PKG-INFO
+[1.284s] writing dependency_links to build/main/main.egg-info/dependency_links.txt
+[1.284s] writing entry points to build/main/main.egg-info/entry_points.txt
+[1.284s] writing requirements to build/main/main.egg-info/requires.txt
+[1.285s] writing top-level names to build/main/main.egg-info/top_level.txt
+[1.285s] writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+[1.287s] reading manifest file 'build/main/main.egg-info/SOURCES.txt'
+[1.288s] writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+[1.289s] running build
+[1.289s] running build_py
+[1.289s] creating /home/amr/turtlebot3_ws/src/main/build/main/build
+[1.289s] creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+[1.289s] copying giaodien.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+[1.289s] copying main.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib
+[1.289s] creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library
+[1.290s] copying Library/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library
+[1.290s] copying Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library
+[1.290s] creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.290s] copying Design_Frame/wheel_widget.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.290s] copying Design_Frame/speedometer.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.290s] copying Design_Frame/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.291s] copying Design_Frame/motor_widget.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.291s] copying Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame
+[1.291s] creating /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI
+[1.291s] copying UI/test.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI
+[1.291s] copying UI/__init__.py -> /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI
+[1.292s] running install
+[1.292s] running install_lib
+[1.295s] creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+[1.295s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+[1.295s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Library/ezi_servo_controller.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library
+[1.295s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/giaodien.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/main.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages
+[1.296s] creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/wheel_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/speedometer.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/motor_widget.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.296s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/Design_Frame/realtime_chart.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame
+[1.297s] creating /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+[1.297s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/test.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+[1.297s] copying /home/amr/turtlebot3_ws/src/main/build/main/build/lib/UI/__init__.py -> /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI
+[1.298s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/__init__.py to __init__.cpython-310.pyc
+[1.298s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Library/ezi_servo_controller.py to ezi_servo_controller.cpython-310.pyc
+[1.300s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/giaodien.py to giaodien.cpython-310.pyc
+[1.303s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main.py to main.cpython-310.pyc
+[1.304s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/wheel_widget.py to wheel_widget.cpython-310.pyc
+[1.305s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/speedometer.py to speedometer.cpython-310.pyc
+[1.306s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/__init__.py to __init__.cpython-310.pyc
+[1.306s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/motor_widget.py to motor_widget.cpython-310.pyc
+[1.307s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/Design_Frame/realtime_chart.py to realtime_chart.cpython-310.pyc
+[1.309s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/test.py to test.cpython-310.pyc
+[1.311s] byte-compiling /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/UI/__init__.py to __init__.cpython-310.pyc
+[1.312s] running install_data
+[1.312s] creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index
+[1.312s] creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index
+[1.312s] creating /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages
+[1.312s] copying resource/main -> /home/amr/turtlebot3_ws/src/main/install/main/share/ament_index/resource_index/packages
+[1.312s] copying package.xml -> /home/amr/turtlebot3_ws/src/main/install/main/share/main
+[1.312s] running install_egg_info
+[1.315s] Copying build/main/main.egg-info to /home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages/main-0.0.1-py3.10.egg-info
+[1.316s] running install_scripts
+[1.344s] Installing main script to /home/amr/turtlebot3_ws/src/main/install/main/lib/main
+[1.345s] writing list of installed files to '/home/amr/turtlebot3_ws/src/main/build/main/install.log'
+[1.386s] Invoked command in '/home/amr/turtlebot3_ws/src/main' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/src/main/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/main build --build-base /home/amr/turtlebot3_ws/src/main/build/main/build install --record /home/amr/turtlebot3_ws/src/main/build/main/install.log --single-version-externally-managed install_data
